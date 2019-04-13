@@ -1,0 +1,85 @@
+html body {
+  margin: 0; padding: 0; background: transparent url(../img/background.jpg); color: #000;
+}
+
+.header {
+  padding: 15px;
+  margin: 0px;
+  color: black;
+  background-color: white;
+  background-image: url(../img/banner.jpg);
+  background-repeat:no-repeat;
+  background-position: 35% 35%;
+}
+
+.footer {
+  background-color: #000;
+  float: bottom;
+}
+
+.footer p {color: white;}
+
+.header h2 {
+  padding: 0px; margin: 0px;
+  color: white;
+}
+
+ul {position: sticky; position: -webkit-sticky; /* Pour Safari */}
+
+.menu2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  top: 0;
+}
+
+.menu2 li {
+  float: left;
+}
+
+.titre {
+  float: center;
+}
+
+.menu2 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu2 li a:hover {
+  background-color: #111;
+}
+
+.menu1 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  top: 0;
+}
+
+.menu1 li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 5px 8px;
+  text-decoration: none;
+}
+
+.menu1 li {
+  float: right;
+}
+
+.menu1 li a:hover {
+  background-color: #333;
+}
+
+.active {
+  background-color: #4CAF50;
+}
